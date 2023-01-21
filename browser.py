@@ -7,9 +7,9 @@ class Browser(QtWidgets.QMainWindow):
         # Create a toolbar and add navigation buttons
         self.toolbar = QtWidgets.QToolBar()
         self.addToolBar(self.toolbar)
-        self.back_action = QtWidgets.QAction(QtGui.QIcon("backward.png"), "", self) #add your img here you can use and extension (.png,.jpg,etc)
-        self.forward_action = QtWidgets.QAction(QtGui.QIcon("forward.png"), "", self) #add your img here you can use and extension (.png,.jpg,etc)
-        self.refresh_action = QtWidgets.QAction(QtGui.QIcon("refresh.png"), "", self) #add your img here you can use and extension (.png,.jpg,etc)
+        self.back_action = QtWidgets.QAction(QtGui.QIcon("backward.png"), "", self) #add your img here you can use any extension (.png,.jpg,etc)
+        self.forward_action = QtWidgets.QAction(QtGui.QIcon("forward.png"), "", self) #add your img here you can use any extension (.png,.jpg,etc)
+        self.refresh_action = QtWidgets.QAction(QtGui.QIcon("refresh.png"), "", self) #add your img here you can use any extension (.png,.jpg,etc)
         self.toolbar.addAction(self.back_action)
         self.toolbar.addAction(self.forward_action)
         self.toolbar.addAction(self.refresh_action)
